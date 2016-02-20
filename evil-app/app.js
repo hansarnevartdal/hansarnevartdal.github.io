@@ -506,7 +506,7 @@ var sock = {
                 }
             };
 
-            $.connection.hub.url = 'http://evil-signalhub.azurewebsites.net/signalr/hubs';
+            $.connection.hub.url = 'https://evil-signalhub.azurewebsites.net/signalr/hubs';
             //$.connection.hub.url = 'http://localhost:5781/signalr/hubs';
             $.connection.hub.start().done(function () {
                 console.log('Now connected, connection ID=' + $.connection.hub.id);
